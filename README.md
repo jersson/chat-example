@@ -11,6 +11,6 @@ Ideas to implement as soon as I can:
 - [ ] Implement CD workflow
 - [ ] Deploy in a real environment
 - [ ] Add username
-- [ ] Remove jquery dependency
+- [ ] Replace jquery dependency for a new strategy
 - [ ] Define how to make a distribuited version
 - [ ] Define next steps
