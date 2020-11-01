@@ -10,7 +10,7 @@ Ideas to implement as soon as I can:
 - [ ] Implement CI workflow
 - [ ] Implement CD workflow
 - [ ] Deploy in a real environment
-- [ ] Add username
+- [ ] Add username and 'is typing' information according this [reference](https://livecodestream.dev/post/2020-07-11-a-starter-guide-to-building-real-time-applications-with-nodejs/)
 - [ ] Replace jquery dependency for a new strategy
 - [ ] Define how to make a distribuited version
 - [ ] Define next steps
