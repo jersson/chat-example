@@ -1,12 +1,15 @@
 {
-  "name": "socket-chat-example",
+  "name": "chat-example",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "real time chat example using socket.io",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0"
   }
 }
