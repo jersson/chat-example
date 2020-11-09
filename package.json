@@ -7,10 +7,12 @@
     "socket.io": "^1.7.3"
   },
   "scripts": {
-    "start": "node src/index.js", 
-    "lint": "npx eslint src/*.js"
+    "start": "node src/index.js",
+    "lint": "npx eslint src/*.js", 
+    "postinstall": "husky install"
   },
   "devDependencies": {
-    "eslint": "^7.13.0"
+    "eslint": "^7.13.0",
+    "husky": "^5.0.0-beta.0"
   }
 }

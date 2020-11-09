@@ -14,7 +14,7 @@ For now we're working with a single linter definition based on [ESLint](https://
 
 ## ideas to implement as soon as I can:
 - [x] Add code conventions specs 
-- [ ] Implement [husky](https://typicode.github.io/husky/#/) to enhace code conventions
+- [x] Implement [husky](https://typicode.github.io/husky/#/) to enhace code conventions
 - [ ] Implement CI workflow
 - [ ] Deploy it in a real environment
 - [ ] Implement CD workflow
