@@ -5,6 +5,8 @@ This repo is based in the source code –for a very simple chat example– used 
 the [Getting Started](http://socket.io/get-started/chat/) guide
 of the Socket.IO website.
 
+![CI workflow](https://github.com/jersson/chat-example/workflows/CI%20workflow/badge.svg?branch=master)
+
 ## how to use the code
 Run the `npm start` command and go to the http://localhost:3000 address in your prefered browser. 
 You can open more than one tab (or window) with the same address and you'll see the magic not only in the browser, I've implemented some log messages that will show you the users interactions.
@@ -15,7 +17,7 @@ For now we're working with a single linter definition based on [ESLint](https://
 ## ideas to implement as soon as I can:
 - [x] Add code conventions specs 
 - [x] Implement [husky](https://typicode.github.io/husky/#/) to enhace code conventions
-- [ ] Implement CI workflow
+- [x] Implement CI workflow
 - [ ] Deploy it in a real environment
 - [ ] Implement CD workflow
 - [ ] Add username and 'is typing' information according this [reference](https://livecodestream.dev/post/2020-07-11-a-starter-guide-to-building-real-time-applications-with-nodejs/)
