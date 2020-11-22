@@ -8,11 +8,13 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "lint": "npx eslint src/*.js", 
+    "start:watch": "nodemon src/index.js",
+    "lint": "npx eslint src/*.js",
     "postinstall": "husky install"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
-    "husky": "^5.0.0-beta.0"
+    "husky": "^5.0.0-beta.0",
+    "nodemon": "^2.0.6"
   }
 }
