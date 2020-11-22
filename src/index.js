@@ -5,7 +5,7 @@ const io = require('socket.io')(http);
 const port = process.env.PORT || 3000;
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(`${__dirname}/index.html`);
 });
 
 io.on('connection', function(socket){
@@ -13,7 +13,7 @@ io.on('connection', function(socket){
 
   socket.on('chat message', function(msg){
     io.emit('chat message', msg);
-    console.log('chat message:', msg);
+    console.log(`chat message: ${msg}`);
   });
 
   socket.on('disconnect', () => {
@@ -22,5 +22,5 @@ io.on('connection', function(socket){
 });
 
 http.listen(port, function(){
-  console.log('listening on *:' + port);
+  console.log(`listening on *: ${port}`);
 });
