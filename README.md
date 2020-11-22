@@ -11,6 +11,9 @@ of the Socket.IO website.
 Run the `npm start` command and go to the http://localhost:3000 address in your prefered browser. 
 You can open more than one tab (or window) with the same address and you'll see the magic not only in the browser, I've implemented some log messages that will show you the users interactions.
 
+Note: I'm working on the edit & watch mode so you can try using the `npm run start:watch` command :)
+
+
 ## what about the code conventions?
 For now we're working with a single linter definition based on [ESLint](https://eslint.org/docs/user-guide/getting-started) and our commit messages are using the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) rules.
 
